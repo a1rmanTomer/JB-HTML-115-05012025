@@ -88,6 +88,4 @@
     - Use the `<button>` or `<input>` tag with the type set to `submit`.
     - Label the button as "Submit Order".
 
-<!-- TODO: -->
-
 6.  **Style the Form (Optional):**
