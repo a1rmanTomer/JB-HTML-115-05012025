@@ -1,5 +1,7 @@
 # Exercise: Create a Car Rental Order Page in HTML
 
+<!-- Only Styling TBD -->
+
 ## Instructions
 
 1.  **Set Up Your HTML File:**
@@ -77,7 +79,6 @@
 
     11. **Pick up from**
 
-
         - Input type: select
         - Label: "Pick up location"
         - Options: "Airport", "City", "Mall"
@@ -86,5 +87,7 @@
 
     - Use the `<button>` or `<input>` tag with the type set to `submit`.
     - Label the button as "Submit Order".
+
+<!-- TODO: -->
 
 6.  **Style the Form (Optional):**
