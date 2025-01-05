@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+</head>
+<body>
+    
+    <form action="/submit-order" method="post" class="car-form">
+
+        <div class="user-info">
+            <label>Full name: </label>
+            <input type="text" placeholder="Enter you full name" name="fullName" id="fullNameBox">
+            <br><br>
+        
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" name="email">
+            <br><br>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter your phone number" name="phone">
+            <br><br>
+
+            <label>Pickup Date</label>
+            <input type="date">
+            <br><br>
+
+            <label>return Date</label>
+            <input type="date">
+            <br><br>
+
+            <label>Car Type</label>
+            <br>
+            <input type="radio" name="carType" value="sedan" id="sedan">
+            <label for="sedan">Male</label>
+            <br>
+            <input type="radio" name="carType" value="female" id="femaleBox">
+            <label for="femaleBox">Female</label>
+            <br>
+            <input type="radio" name="carType" value="not sure" id="notSure">
+            <label for="notSure">Not sure</label>
+            <br><br>
+            
+        </div>
+    </form>
+
+</body>
+</html>
