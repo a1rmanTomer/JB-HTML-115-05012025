@@ -22,9 +22,71 @@
             <input type="tel" placeholder="Enter your phone number" name="phone">
             <br><br>
         </div>
-
         
-            
+        <div class="car-info">
+            <label>Pickup Date</label>
+            <input type="date">
+            <br><br>
+
+            <label>return Date</label>
+            <input type="date">
+            <br><br>
+
+            <label>Car Type</label>
+            <br>
+            <input type="radio" name="carType" value="sedan" id="sedan">
+            <label for="sedan">Male</label>
+            <br>
+            <input type="radio" name="carType" value="suv" id="suv">
+            <label for="suv">SUV</label>
+            <br>
+            <input type="radio" name="carType" value="truck" id="truck">
+            <label for="truck">Truck</label>
+            <br>
+            <input type="radio" name="carType" value="convertible" id="convertible">
+            <label for="convertible">Convertible</label>
+            <br><br>
+
+            <div class="features">
+                <h2>Extra Features</h2>
+
+                <label>
+                GPS
+                <input type="checkbox" name="gps">
+                </label>
+
+                <label>
+                Child Seat
+                <input type="checkbox" name="childSeat">
+                </label>
+
+                <label>
+                Additional Driver
+                <input type="checkbox" name="additionalDriver">
+                </label>
+            </div>
+
+            <label>Number of Days: </label>
+            <input type="number" name="numOfDays" placeholder="Renting days?">
+            <br><br>
+
+            <label>Pickup Location: </label>
+            <textarea name="pickupLocation" placeholder="Enter pickup location"></textarea>
+            <br><br>
+
+            <label>Special Requests: </label>
+            <textarea name="comments" placeholder="Enter any special requests"></textarea>
+            <br><br>
+
+            <label>Pickup Location</label>
+            <select name="pickupLocation">
+                <option value="1">Airport</option>
+                <option value="2">City</option>
+                <option value="3">Mall</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>            
 
     </form>
 
