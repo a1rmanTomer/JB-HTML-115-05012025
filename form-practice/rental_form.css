@@ -45,7 +45,7 @@ body {
   font-size: 1.5rem;
   border-radius: 1rem;
   padding: 1rem 2rem;
-  box-shadow: 0 2px 2rem #909090;
+  box-shadow: 0 2px 2rem #333333;
 }
 
 .form-areas {
@@ -59,6 +59,7 @@ body {
   width: clamp(100%, calc(150% + 1rem), 8rem);
   height: clamp(20rem, calc(20rem + 10vh), 30rem);
   padding: 3rem 2rem;
+  flex-wrap: wrap;
 }
 
 .form-areas div {
